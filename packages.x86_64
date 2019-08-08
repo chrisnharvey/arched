@@ -1,6 +1,13 @@
-# GNOME
+# GUI
 gnome-shell
+gnome-control-center
+gnome-terminal
+firefox
 gdm
+xorg
+
+# Network
+networkmanager
 
 arch-install-scripts
 b43-fwcutter
