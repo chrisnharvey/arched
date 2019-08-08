@@ -23,4 +23,3 @@ systemctl enable pacman-init.service choose-mirror.service
 
 systemctl enable gdm
 
-systemctl set-default multi-user.target
