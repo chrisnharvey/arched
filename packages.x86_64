@@ -1,3 +1,7 @@
+# GNOME
+gnome-shell
+gdm
+
 arch-install-scripts
 b43-fwcutter
 broadcom-wl
