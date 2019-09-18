@@ -1,0 +1,16 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    container: archlinux/base
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Install required packages
+      run: pacman -Syy --noconfirm archiso cdrkit grep base-devel
+    - name: Build ISO
+      run: ./build.sh -v
